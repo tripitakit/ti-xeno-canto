@@ -31,7 +31,7 @@ Copy ti-xeno-canto.js in your Resources/lib, or another location of your choice.
 app.js
 ```javascript
 
-/** Require the constructor and create a new search instance object
+/** Require the constructor and create a new search instance object */
 var TiXenoCanto = require('lib/ti-xeno-canto');
 var ti_xeno_canto = new TiXenoCanto();
 
