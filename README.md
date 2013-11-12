@@ -33,11 +33,11 @@ app.js
 var TiXenoCanto = require('lib/ti-xeno-canto');
 var ti_xeno_canto = new TiXenoCanto();
 
-/** Define a simple query using a string with the english common name
+/** Define a simple query using a string with the english common name */
 var simple_search = "bearded bellbird";
 
 /** Define an advanced query using an object with some query properties.
-		Complete list of query properties: https://npmjs.org/package/xeno-canto */
+    Complete list of query properties: https://npmjs.org/package/xeno-canto */
 var advanced_search = {
 	name:'orthonyx',
 	country: 'papua',
@@ -60,10 +60,12 @@ var textArea = Ti.UI.createTextArea({
 win.add(textArea);
 
 win.addEventListener('open', function(){
-	/** search! *
+	
+	/** search! */
 	ti_xeno_canto.search(query, function(self){
-		/** the callback receive a reference to the TiXenoCanto instance,
-		    the response object is stored in the instance variable entity: */
+	
+		/** the callback receive a reference of the TiXenoCanto instance,
+	    	    the response object is stored in the instance variable 'entity' */
 		textArea.setValue(self.entity);
 	});
 });
