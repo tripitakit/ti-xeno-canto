@@ -1,8 +1,9 @@
 #TiXenoCanto
 
-Appcelerator Titanium CommonJS HttpClient interface module
-for xeno-canto webservices api 2.0 (http://xeno-canto.org/). 
-port of node.js xeno-canto module (https://npmjs.org/package/xeno-canto) 
+Appcelerator Titanium CommonJS HttpClient interface module for
+xeno-canto webservices api 2.0 (http://xeno-canto.org/). 
+
+Ti porting of node.js xeno-canto module (https://npmjs.org/package/xeno-canto).
 
 **Easy simple/advanced searches against xeno-canto database.**
 
