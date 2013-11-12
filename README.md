@@ -22,7 +22,8 @@ listings relevant to the species named in the request."
 
 
 ## Installation
-Copy ti-xeno-canto.js in your Resources/lib (or other location of your choice).
+Copy ti-xeno-canto.js in your Resources/lib, or another location of your choice.
+
 (The following example will assume the module is installed in Resources/lib).
 
 ## Usage example
