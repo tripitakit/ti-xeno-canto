@@ -46,7 +46,7 @@ var advanced_search = {
 	location: 'tari'
 };
 
-/** Switch test for simple/advanced search examples, 
+/** Switch test for simple/advanced search examples */
 var query = simple_search; //advanced_search
 
 /** Minimal UI  */
