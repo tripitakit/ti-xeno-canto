@@ -66,8 +66,8 @@ win.addEventListener('open', function(){
 	/** search! */
 	ti_xeno_canto.search(query, function(self){
 	
-		/** the callback receive a reference of the TiXenoCanto instance,
-	    	    the response object is stored in the instance variable 'entity' */
+		/** the callback receive a reference of the TiXenoCanto instance, 
+		the response object is stored in the instance variable 'entity' */
 		textArea.setValue(self.entity);
 	});
 });
