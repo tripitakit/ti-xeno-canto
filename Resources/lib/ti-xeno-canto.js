@@ -2,11 +2,9 @@
  * ti-xeno-canto.js
  *
  * TiXenoCanto
- * Appcelerator Titanium porting of node.js xeno-canto
- * (https://npmjs.org/package/xeno-canto)
- *
- * CommonJS module consuming xeno-canto webservices api 2.0 
- * (http://xeno-canto.org/)
+ * Appcelerator Titanium CommonJS HttpClient interface module
+ * for xeno-canto webservices api 2.0 (http://xeno-canto.org/). 
+ * port of node.js xeno-canto module (https://npmjs.org/package/xeno-canto) 
  *
  * @Copyright (c) 2013 Patrick De Marta
  * @Licensed under the terms of the GNU GPL.
